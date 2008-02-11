@@ -1,0 +1,8 @@
+include "Geometry/CMSCommonData/data/cmsMagneticFieldXML.cfi"	
+
+
+es_module = ParametrizedMagneticFieldProducer {
+	double paramFieldRadius = 4.6430
+	double paramFieldLength = 15.284
+}
+	
