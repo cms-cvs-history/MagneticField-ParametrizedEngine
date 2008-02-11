@@ -5,7 +5,7 @@
 <use name=MagneticField/Records>
 <use name=DataFormats/GeometryVector>
 <use name=root>
-<flags SEAL_PLUGIN_NAME="MagneticFieldPlotter">
+<flags EDM_PLUGIN=1>
 <library file=MagneticFieldPlotter.cc name=MagneticFieldPlotter>
 </library>
 
