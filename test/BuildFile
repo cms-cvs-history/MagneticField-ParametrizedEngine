@@ -11,11 +11,4 @@
 
 <export>
    <lib name=MagneticFieldPlotter>
-   <use name=FWCore/Framework>
-   <use name=Foundation/PluginManager>
-   <use name=FWCore/ParameterSet>
-	<use name=MagneticField/Engine>
-	<use name=MagneticField/Records>
-	<use name=DataFormats/GeometryVector>
-	<use name=root>
 </export>
