@@ -1,0 +1,16 @@
+es_source idealMagneticFieldRecordSource = EmptyESSource {
+    string recordName = "IdealMagneticFieldRecord"
+    bool iovIsRunNotTime = true
+    vuint32 firstValid = {1}
+}
+
+es_module = ParametrizedMagneticFieldProducer {
+    untracked string label = ""
+
+    string version = "PolyFit2D"
+    PSet parameters = {
+      double BValue = 4.01242188708911
+    }
+}
+	
+ 
