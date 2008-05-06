@@ -1,0 +1,18 @@
+es_source idealMagneticFieldRecordSource = EmptyESSource {
+    string recordName = "IdealMagneticFieldRecord"
+    bool iovIsRunNotTime = true
+    vuint32 firstValid = {1}
+}
+
+es_module = ParametrizedMagneticFieldProducer {
+    untracked string label = ""
+
+    string version = "OAE_85l_030919"
+    PSet parameters = {
+	double b0 = 40.681
+	double l  = 15.284
+	double a  = 4.6430
+    }
+}
+	
+ 
