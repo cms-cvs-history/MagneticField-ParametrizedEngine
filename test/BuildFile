@@ -8,6 +8,6 @@
 <flags EDM_PLUGIN=1>
 </library>
 
-<bin file=TkBfield_t.cpp>
+<bin file=TKBfield_t.cpp>
  <use name=MagneticField/ParametrizedEngine>
 </bin>
